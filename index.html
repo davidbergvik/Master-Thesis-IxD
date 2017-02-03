@@ -8,6 +8,9 @@
   <meta name="description" content="The HTML5 Herald">
   <meta name="author" content="SitePoint">
 
+
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/styles.css?v=1.0">
   <!--<script src="js/scripts.js"></script>-->
   <!--[if lt IE 9]>
@@ -16,27 +19,47 @@
 </head>
 
 <body>
-  <header>
+  <div class="container">
 
-    <h1>David Bergvik - Master Thesis</h1>
-    <h2>Evaluating the use of 2D principles when designing Virtual Reality interfaces </h2>
-  </header>
-  <nav>
-    <ul>
-      <li class="active">
-        <a class="reference" href="#">Logbook</a>
-      </li>
-      <li>
-        <a class="reference" href="#">Thesis Specification</a>
-      </li>
-      <li>
-        <a class="reference" href="#">About Me</a>
-      </li>
-    </ul>
-  </nav>
+    <div class="section">
+
+
+      <header class="row">
+        <div class="one-half column row">
+          <h1 >Master Thesis,</h1>
+          <h2 >David Bergvik</h2>
+
+
+        </div>
+        <nav class="one-half column">
+          <ul>
+            <li class="active">
+              <a class="reference" href="index.html">Logbook</a>
+            </li>
+            <li >
+              <a class="reference" href="thesis-spec.html">Thesis Specification</a>
+            </li>
+            <li>
+              <a class="reference" href="about.html">About Me</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </div>
   <main>
     <article>
       <h3>Senaste inlägget</h3>
+      <div class="date">
+        2017/01/26-2017/02/02
+      </div>
+      <section>
+        <div class="message">
+
+          <p>
+            For the past week I've created and worked on a new section called "introduction". It is a lot of fun.
+          </p>
+        </div>
+      </section>
       <section>
         <h4>Git commits</h4>
         <div class="git-commit">
@@ -45,23 +68,27 @@
 
           <p> - Add new subsection in introduction called "problem"</p>
         </div>
-          <div class="git-commit">
-              <a class="reference" href="#"> 234ab23232 </a>
-            <p> - Created new section called "introduction"</p>
+        <div class="git-commit">
+          <a class="reference" href="#"> 234ab23232 </a>
+          <p> - Created new section called "introduction"</p>
         </div>
       </section>
-      <section>
-        <div class="message">
-          <h4>Message</h4>
-          <p>
-            For the past week I've created and worked on a new section called "introduction". It is a lot of fun.
-          </p>
-        </div>
-      </section>
+
     </article>
 
     <article>
       <h3>Första inlägget</h3>
+      <div class="date">
+        2017/01/01 - 2017/01/26
+      </div>
+      <section>
+        <div class="message">
+
+          <p>
+            I created the main latex file and I'm ready to go!
+          </p>
+        </div>
+      </section>
       <section>
         <h4>Git commits</h4>
         <div class="git-commit">
@@ -71,19 +98,13 @@
           <p> - Created latex-file for thesis</p>
         </div>
       </section>
-      <section>
-        <div class="message">
-          <h4>Message</h4>
-          <p>
-            I created the main latex file and I'm ready to go!
-          </p>
-        </div>
-      </section>
+
     </article>
 
-    </main>
-    <footer>
-      David Bergvik 2017 - All rights reserved
-    </footer>
-  </body>
-  </html>
+  </main>
+  <footer>
+    David Bergvik 2017 - All rights reserved
+  </footer>
+</div>
+</body>
+</html>
