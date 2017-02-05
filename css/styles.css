@@ -28,36 +28,40 @@ text-align: right;
 nav ul li {
   display: inline;
   margin: 10px;
-  font-size: 1rem;
+  font-size: 1.5rem;
   text-decoration: none;
 
 }
 nav ul li.active {
-  background-color: darkblue;
 padding:10px;
 }
-nav ul li.active a, nav ul li.active a{
-  color:white;
-
-
-}
 nav ul li a, section .git-commit a{
-  color:darkblue;
   text-decoration: none;
 }
+/*Main content styles*/
+main{
+  padding-top: 3rem;
 
-article, footer, main{
-  border: 1px solid grey;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  padding: 1rem;
 }
+/*Blog post styles*/
+article{
+  padding: 2rem;
+}
+
 .git-commit .reference,.git-commit p, article h3{
   display: inline;
 }
+
 article .date{
 
 }
 article h3{
 
+}
+/*Footer sdtyles*/
+footer{
+text-align: center;
+ margin-top: 1rem;
+ margin-bottom: 2rem;
+ padding: 1rem;
 }
