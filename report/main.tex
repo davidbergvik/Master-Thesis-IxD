@@ -16,6 +16,7 @@
 \usepackage{float}
 \usepackage{todonotes}
 \usepackage{titlesec}
+\usepackage{import}
 
 \usepackage{fancyhdr, titling, setspace, anyfontsize}
 \usepackage[paper=a4paper,margin=3.5cm, bmargin=2.5cm]{geometry}
@@ -61,8 +62,17 @@
     Master Thesis, 30 ECTS\\
     Master of Science in (state your degree), 300 ECTS
 \end{flushleft}
-x§
+
 \thispagestyle{empty}
 \restoregeometry
+\chapter{Introduction}
+\import{sections/}{introduction.tex}
+\import{sections/}{introduction-background.tex}
+
+\chapter{Theory}
+\import{sections/}{theory.tex}
+
+\chapter{Disscusion}
+\import{sections/}{discussion.tex}
 
 \end{document}
