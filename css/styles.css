@@ -48,16 +48,20 @@ article{
   padding: 2rem;
 }
 
-.git-commit .reference,.git-commit p, article h3{
+article li a,article li p, article h3{
   display: inline;
 }
-
-article .date{
+article li{
+  list-style: none;
+}
+article li a{
+  text-decoration: none;
+}
+/*Date styles*/
+article h3+p{
 
 }
-article h3{
 
-}
 /*Footer sdtyles*/
 footer{
 text-align: center;

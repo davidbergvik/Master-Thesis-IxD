@@ -1,0 +1,12 @@
+# Fdb version 3
+["xdvipdfmx"] 0 "discussion.xdv" "discussion.pdf" "discussion" 0
+  "discussion.xdv" 0 -1 0 "xelatex"
+  (generated)
+  "discussion.pdf"
+["xelatex"] 1486645014 "discussion.tex" "discussion.xdv" "discussion" 1486645017
+  "c:/texlive/2016/texmf-var/web2c/xetex/xelatex.fmt" 1486395629 3557619 63ed9657484700780615dfe8d7c13f72 ""
+  "discussion.aux" 1486645014 9 a94a2480d3289e625eea47cd1b285758 ""
+  "discussion.tex" 1486645006 119 69d68d3f614f12fc62e62fe167c7f044 ""
+  (generated)
+  "discussion.xdv"
+  "discussion.log"
