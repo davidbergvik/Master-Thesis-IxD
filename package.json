@@ -1,0 +1,20 @@
+{
+  "name": "git-log-book",
+  "version": "1.0.0",
+  "description": "A helper module to write a logbook",
+
+  "keywords": [
+    "git",
+    "help",
+    "log",
+    "book",
+    "logbook"
+  ],
+  "repository": {
+      "type": "git",
+      "url": "git+https://github.com/davidbergvik/master-thesis-IxD.git"
+    },
+  "author": "",
+  "license": "MIT"
+
+}
