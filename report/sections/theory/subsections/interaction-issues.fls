@@ -1,0 +1,4 @@
+PWD C:/Users/David/Workspace/Master-Thesis-IxD/Master-Thesis-IxD/report/sections/theory/subsections
+INPUT c:/texlive/2016/texmf-var/web2c/xetex/xelatex.fmt
+INPUT ./interaction-issues.tex
+OUTPUT interaction-issues.log
