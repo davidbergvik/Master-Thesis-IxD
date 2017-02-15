@@ -1,9 +1,9 @@
 # Fdb version 3
-["xdvipdfmx"] 1486810538 "main.xdv" "main.pdf" "main" 1486810541
-  "main.xdv" 1486810536 77576 b9f76b73a0aa9346026090ed1b2bbfc1 "xelatex"
+["xdvipdfmx"] 1487175461 "main.xdv" "main.pdf" "main" 1487175466
+  "main.xdv" 1487175458 91788 b47c23fd5a13e7f4b9883aa83b869eda "xelatex"
   (generated)
   "main.pdf"
-["xelatex"] 1486810529 "main.tex" "main.xdv" "main" 1486810541
+["xelatex"] 1487175444 "main.tex" "main.xdv" "main" 1487175466
   "c:/texlive/2016/texmf-dist/fonts/map/fontname/texfonts.map" 1486387829 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "c:/texlive/2016/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1486394851 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "c:/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1486385206 1004 54797486969f23fa377b128694d548df ""
@@ -170,8 +170,8 @@
   "c:/texlive/2016/texmf-dist/tex/latex/xkeyval/xkeyval.sty" 1486394700 4962 9c1069474ff71dbc47d5006555e352d3 ""
   "c:/texlive/2016/texmf-var/web2c/xetex/xelatex.fmt" 1486395629 3557619 63ed9657484700780615dfe8d7c13f72 ""
   "front.jpg" 1478551238 422243 bf4f6c4831b0a2f7d062c466da0b58d3 ""
-  "main.aux" 1486810536 2786 35197aff6490a49454a6e6d1bf4e1764 ""
-  "main.out" 1486810536 1455 7bfa7a9c25b88c756e88ac2983d2a321 ""
+  "main.aux" 1487175458 2671 7738f0c3725b9b05f659566fc82c9210 ""
+  "main.out" 1487175458 1370 64d08d098d89191307509ea9763854bc ""
   "main.tex" 1486738614 2158 52765f41b0dfa1b8a8f1d2e8814906b1 ""
   "sections/discussion/discussion.tex" 1486652028 119 69d68d3f614f12fc62e62fe167c7f044 ""
   "sections/introduction/introduction.tex" 1486652028 122 3eb178d1aaf337ba1df634e3800765ec ""
@@ -181,13 +181,13 @@
   "sections/methodology/subsections/new-prototype-test.tex" 1486744310 59 1051d6cfc9584af8f08f84b636fbef0f ""
   "sections/methodology/subsections/prototype.tex" 1486744310 71 d0e89b42359d8ff475b1dc51348a0e6a ""
   "sections/results/results.tex" 1486652028 114 a8d8911a30c8b9e271596e3e7fa1ff29 ""
-  "sections/theory/subsections/design-principles-for-screen.tex" 1486810497 135 4c7eeb654fe3fb199ba20dbeb26bb5ed ""
+  "sections/theory/subsections/design-principles-for-screen.tex" 1487175432 1585 3f2c918ad57e4b7f221a44e77d0fbe3b ""
   "sections/theory/subsections/interaction-issues.tex" 1486739899 3069 f1edaf2ee5b1029d19586e11bf12ed2e ""
   "sections/theory/subsections/interaction-tools.tex" 1486738528 1890 293e7d5cf9365de41780677843d88677 ""
   "sections/theory/subsections/interface-design.tex" 1486738410 1293 49400d9cb2449028821f4ff4d4c1e81a ""
-  "sections/theory/theory.tex" 1486810313 280 8be69cc995d2c48251523ab4c2bdf512 ""
+  "sections/theory/theory.tex" 1486923341 301 091e5352f25198a463877710ccd16874 ""
   (generated)
-  "main.aux"
   "main.xdv"
   "main.out"
+  "main.aux"
   "main.log"
