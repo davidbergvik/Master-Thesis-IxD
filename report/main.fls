@@ -309,6 +309,8 @@ INPUT sections/methodology/subsections/new-prototype-test.tex
 INPUT sections/methodology/subsections/new-prototype-test.tex
 INPUT sections/theoretical_framework/theoretical-framework.tex
 INPUT sections/theoretical_framework/theoretical-framework.tex
+INPUT sections/theoretical_framework/subsections/user-centered-design.tex
+INPUT sections/theoretical_framework/subsections/user-centered-design.tex
 INPUT sections/theoretical_framework/subsections/interaction-issues.tex
 INPUT sections/theoretical_framework/subsections/interaction-issues.tex
 INPUT sections/theoretical_framework/subsections/interaction-tools.tex
