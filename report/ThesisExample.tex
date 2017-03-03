@@ -1,0 +1,400 @@
+\documentclass[a4paper,11pt,twoside]{report}
+
+\usepackage{UmUThesis}           % Standard English
+%\usepackage[noindent]{UmUThesis}  % Non indented English
+%\usepackage[se]{UmUThesis}       % Swedish
+
+\usepackage[latin1]{inputenc}
+\usepackage{courier}              % Nicer fonts are used. (not necessary)
+%\usepackage{pslatex}              % Also nicer fonts. (not necessary)
+%\usepackage{lmodern}              % Optional fonts. (not necessary)
+\usepackage{url}
+\usepackage[T1]{fontenc}
+
+\usepackage{import}
+\usepackage{subcaption}
+\usepackage{csquotes}
+
+\usepackage{adjustbox}
+\usepackage{graphicx}
+
+\usepackage{blindtext}
+\usepackage{amssymb}
+\usepackage{pifont}
+
+	\title{Development and design in virtual reality: A user experience evaluation of \\creating 3D experiences while emerged in virtual reality }%in two rows\\}
+	\author{David Bergvik}
+	\supervisor{}
+	\supervisore{}
+	\examiner{Thomas Mejtoft}
+	\semester{Fall 2016}
+	\course{Master Thesis, 30 hp}
+	\education{M.Sc. Interaction Technology and Design, 300 hp}
+
+\graphicspath{{pictures/}}
+\pagestyle{empty}
+
+\begin{document}
+\maketitle
+
+%%-----------------------------------------------------------------------------------------------------------------
+%%----------ACKNOWLEDGEMENTS---------------------------------------------------------------------
+%%-----------------------------------------------------------------------------------------------------------------
+
+\begin{center}
+\section*{Acknowledgements}
+Thanks mum and dad \ding{164}
+\end{center}
+
+\clearpage
+
+%%-----------------------------------------------------------------------------------------------------------------
+%%------------ABSTRACT-------------------------------------------------------------------------------------
+%%-----------------------------------------------------------------------------------------------------------------
+
+\begin{center}
+\section*{Abstract}
+Abstract, abstract, abstract...
+% WRITE IN PRESENT TENSE!
+
+%%% 1. Explanation of the title of your thesis
+% The first function of the abstract is to further explain the title of your thesis. This allows readers of tour thesis to better determine if your thesis is interesting enough for them to read. A well-written abstract can encourage more people to consider your thesis important and, thus, to intend to read it.
+
+%%% 2. Short version of your thesis
+% The abstract serves as a short version for readers who don?t have the time to read the complete thesis. Often, managers and scientists read only the abstract and not the entire piece.
+
+%%% 3. Overview of your thesis
+% The abstract?s function is to serve as an overview of what readers can expect. This makes it easier for the reader to understand and to place in context the material in the thesis. A well-written abstract ensures that difficult material in your thesis is better understood.
+
+% - What is the problem? Indicate the objective, problem statement and research questions of your thesis. If you have used hypotheses in your thesis, indicate them here.
+% - What has been done? Briefly explain the method and approach of your research
+% - What has been discovered? Provide a summary of the most important results and your conclusion
+% - What do your findings mean? Summarize the key points from the discussion and present your recommendations
+
+%% Understand your abstract without going through the rest of your thesis.
+%% Include references when you use a source. You often do not use any references because you mainly write about your own findings and research
+
+%% --------------------------- CHECKLIST -------------------------------------
+% - Maximum of A4 sheet of paper
+% - Placed after the preface and before the table of contents
+% - Written in present tense
+% - The objective is specified
+% - The problem statement is given
+% - The research questions or hypotheses are included
+% - The methodology and approach of your research are briefly explained
+% - A summary of the most important results are given
+% - The conclusion is given (the answer to your research question / problem statement).
+% - The results have been discussed and explained (discussion).
+% - Suggestions for follow-up research are presented
+% - Any recommendations are concisely discussed
+% - The abstract clarifies what the thesis is about
+
+\end{center}
+
+\setcounter{page}{1}
+
+%%-----------------------------------------------------------------------------------------------------------------
+%%----------TABLE OF CONTENTS----------------------------------------------------------------------
+%%-----------------------------------------------------------------------------------------------------------------
+
+\tableofcontents
+%% --------------------------- CHECKLIST -------------------------------------
+% - Automatically generated
+% - Has clear chapter and section titles
+% - Difference in headings used for chapters and sections
+% - Maximum of two pages
+% - Headings from Introduction to Reference list are in the table of contents
+
+%%-----------------------------------------------------------------------------------------------------------------
+%%----------------LIST OF FIGURES--------------------------------------------------------------------
+%%-----------------------------------------------------------------------------------------------------------------
+
+%\chapter*{List of figures}
+
+%%-----------------------------------------------------------------------------------------------------------------
+%%-----------------LIST OF TABLES----------------------------------------------------------------------
+%%-----------------------------------------------------------------------------------------------------------------
+
+%\chapter*{List of tables}
+
+%%-----------------------------------------------------------------------------------------------------------------
+%%------------------INTRODUCTION--------------------------------------------------------------------
+%%-----------------------------------------------------------------------------------------------------------------
+
+
+%Introduction section
+\import{sections/introduction/}{introduction.tex}
+
+
+% WRITE IN PRESENT TENSE
+
+% Describe the topic of your thesis
+% Formulate the problem statement
+% Write an overview of your thesis
+
+% Although the introduction is at the beginning of your thesis, this placement does not mean that you must finish the introduction before you can start the rest of your research. The further you get in your research, the easier it will be to write a good introduction that is to the point. Thus, it is no disaster if you ca not write a perfect introduction right away.
+
+
+%% 	PURPOSE OF THE INTRODUCTION
+% - Introduce the topic. What is the purpose of the study and what is the topic?
+% - Gain the readers interest. Make sure that you get the readers attention by using clear examples from recent news items or everyday life.
+% - Demonstrate the relevance of the study. Convince the reader of the scientific and practical relevance.
+
+%%%%%% PARTS OF THE INTRODUCTION
+%%% - Motivation
+% What is the motive for your research? This can be a recent news item or something that has always interested you.
+
+%%% - Scope
+% Based on the motivation or problem indication, you describe the topic of your thesis. Make sure that you directly define the topic of your research.
+
+%%% - Theoretical and practical relevance of the research
+% Using arguments, state the scientific relevance of your research.
+% Highlight here the discussion chapters of studies that you are going to use for your own research.
+% Explain the practical use of your research.
+% When you are writing a thesis for a company, you will find that the scientific relevance is much more difficult to demonstrate. On the other hand, it should be easier to show the practical benefit. Think of, for example, the practical applications for the entire industry.
+
+%%% - Current scientific situation
+% Specify the most important scientific articles that relate to your topic and you briefly explain them.
+% Show that many studies have been conducted around the topic, and that you won't get stuck due to finding too little information on your topic.
+
+%%% - Objective of the study and the problem statement
+% Describe the objective of your study and the problem statement that you have formulated.
+
+%%% - Brief description of the research design
+% Provide a brief summary of your research design. How, where, when and with whom are you going to conduct your research?
+
+%%% - Thesis outline
+% Briefly describe how your thesis is constructed. Summarize each chapter briefly in one paragraph at the most, but preferably in one sentence.
+% Make sure your thesis outline is not repetitively phrased because it does not vary its word choice.
+
+
+
+% Do not repeat yourself and only write down what is important to introduce your topic and research.
+
+
+
+%% --------------------------- CHECKLIST -------------------------------------
+% - Introduction of the research is written with a stimulating topic.
+% - The topic is limited
+% - The scientific relevance is demonstrated (not always applicable)
+% - The practical relevance is demonstrated
+% - The most important scientific articles about the topic are summarized
+% - The objective is formulated
+% - The problem statement is formulated
+% - The conceptual framework is determined
+% - The research question or hypotheses are formulated
+% - The research design is described briefly
+% - The thesis overview is added
+
+
+%Problem section
+\import{sections/problem/}{problem.tex}
+
+%\section{Objective}
+
+
+%\section{Limitations}
+
+
+
+\section{Terminology}
+
+\begin{tabular}{ | p{5.5cm} | p{6.5cm} |  }
+	\hline
+     	\multicolumn{2}{|c|}{Common terms and their explanation} \\
+     	\hline
+	Field of View (FOV) & Explanation goes here. \\
+    	\hline
+     	Head-Mounted Display (HMD) & Explanation goes here. \\
+    	\hline
+     	Virtual Reality (VR) & Explanation goes here. \\
+    	\hline
+	Virtual Environment (VE) & Explanation goes here. \\
+     	\hline
+    	Omidirectional video (ODV) & Explanation goes here. \\
+    	\hline
+     	360� video & Explanation goes here. \\
+     	\hline
+     	3D video & Explanation goes here. \\
+     	\hline
+     	Hypervideo & Explanation goes here. \\
+	\hline
+\end{tabular}
+
+%%-----------------------------------------------------------------------------------------------------------------
+%%----------------LITERATURE REVIEW---------------------------------------------------------------
+%%-----------------------------------------------------------------------------------------------------------------
+
+\chapter{Literature review}
+% A method used to gather knowledge that already exists in relation to a particular topic or problem.
+% Conducting literature research provides insight into existing knowledge and theories related to your topic. It also ensures that your thesis has a string scientific grounding.
+% Your goal is instead to critically discuss the most relevant ideas and information that you have found as part of your theoretical framework.
+
+% The literature review serves as a real cornerstone for analyzing the problem being investigated. The basis for developing a comprehensive theoretical framework.
+
+% Once you have a general idea of the problem and research questions you would like to address in your thesis, the first step is often to begin reviewing the literature.
+% The insights into the existing knowledge and theories that you will gain through the literature review will also help you to establish a strong scientific starting point for the rest of your research.
+
+%%%% LITERARURE ROADMAP
+%% 1. Prepare
+% The first step involves orienting yourself to the subject in order to get a more global picture of the area of inquiry. It also entails making a list of keywords, which will serve as the basis for the next step.
+
+%% 2. Collect literature
+% Does the same authors name keep popping up? This usually means this individual has done lot of research on the topic.
+
+%% 3. Evaluate and select the literature
+% Start with just the introduction and conclusion
+
+%% 4. Process the literature
+% Ask yourself the following questions while reading:
+% - What is the problem being investigated and how is the research addressing it?
+% - What are the key concepts and how are they being defined?
+% - What theories and models does the author use?
+% - What are the results and conclusions of the study?
+% - How does this publication compare to related publications in this field?
+% - How can I apply this research to my own research?
+
+%%-----------------------------------------------------------------------------------------------------------------
+%%--------------CASE: EXTENDED FESTIVAL-----------------------------------------------------
+%%-----------------------------------------------------------------------------------------------------------------
+
+\section{}
+
+%%-----------------------------------------------------------------------------------------------------------------
+%%-------------------THEORETICAL FRAMEWORK------------------------------------------------------------------
+%%-----------------------------------------------------------------------------------------------------------------
+
+
+
+%Theoretical framework section
+\import{sections/theoretical_framework/}{theoretical-framework.tex}
+
+% A good theoretical framework gives you a strong scientific research base and provides support for the rest of your thesis.
+
+% After you have identified your problem statement and research question(s), it is important to determine what theories and ideas exist in relation to your chosen subject. By presenting this information, you 'frame' your research and show that you are knowledgeable about the key concepts, theories, and models that relate to your topic.
+% The theoretical framework also provides scientific justification for your investigation: it shows that your research is not just coming "out of the blue," but that it is both grounded in and based on scientific theory.
+
+%% 1. Select key concepts
+% To investigate this problem, you have identified and plan to focus on the following problem statement, objective, and research questions.
+
+%% 2. Define and evaluate relevant concepts, theories, and models
+% A literature review is first used to determine how other researchers have defined these key concepts. You should then critically compare the definitions that different authors have proposed. The last step is to choose the definition that best fits your research and justify why this is the case.
+% Indicate if there are any notable links between these concepts.
+% Describe any relevant theories and models that relate to your key concepts and argue why you are or are not applying them to your own research.
+
+%% 3. Consider adding other elements to your theoretical framework
+% Following these steps will help to ensure that you are presenting a solid overview:
+% - Describe what discussions on the subject exist within the literature.
+% - Explain what methods, theories, and models other authors have applied. In doing so, always argue why a particular theory or model is or is not appropriate for your own research.
+% - Analyze the similarities and differences between your own research and earlier studies.
+% - Explain how your study adds to knowledge that already exists on the subject.
+
+%% --------------------------- CHECKLIST -------------------------------------
+% - Key concepts mentioned in research questions and hypotheses or problem statement are defined.
+% - The main theories and models that relate to the research have been analyzed
+% - Theories and models that are chosen to use to answer the research questions/test your hypotheses have been justified.
+% - Notable relationships between concepts are explained.
+% - The main scientific articles on the subject have been cited
+% - All the descriptive research questions have been answered
+% - The theoretical framework has a logical structure
+% - Relevant and recent sources have been consulted.
+% - Sources are cited in the right way.
+% - An overview of existing knowledge related to the identified problem is solved
+% - It is made clear how the research is relevant (for example, by showing how it fills a gap in the existing knowledge).
+
+
+%%-----------------------------------------------------------------------------------------------------------------
+%%----------------METHODOLOGY----------------------------------------------------------------------
+%%-----------------------------------------------------------------------------------------------------------------
+
+%Methodology section
+\import{sections/methodology/}{methodology.tex}
+
+
+
+%%-----------------------------------------------------------------------------------------------------------------
+%%--------------RESULT---------------------------------------------------------------------------------------------------
+%%-----------------------------------------------------------------------------------------------------------------
+
+%Result section
+\import{sections/results/}{results.tex}
+
+% Carry out the research design that you described in the previous chapter.
+% Describe how the research went and analyze the result.
+
+
+
+%%-----------------------------------------------------------------------------------------------------------------
+%%-------------CONCLUSION----------------------------------------------------------------------------------------
+%%-----------------------------------------------------------------------------------------------------------------
+
+\chapter{Conclusion}
+% PRESENT TENSE
+% Should be between 200-400 words.
+
+% Answer your research question. Reiterate the research question, but integrate an explanation of it into the rest of the sections discussion.
+
+%% --------------------------- CHECKLIST -------------------------------------
+% - The research questions have been answered.
+% - The main question or problem statement has been answered.
+% - The hypotheses have been confirmed or refused.
+% - The right verb tense has been used.
+% - No issues are interpreted.
+% - No new information has been given.
+% - No examples are used.
+% - No extraneous information is provided.
+% - No passages from the results have been cut and pasted.
+% - The first person has not been used.
+
+%%-----------------------------------------------------------------------------------------------------------------
+%%---------------DISCUSSION-----------------------------------------------------------------------------
+%%-----------------------------------------------------------------------------------------------------------------
+
+%Discussion section
+\import{sections/discussion/}{discussion.tex}
+
+% WRITE IN PRESENT TENSE
+
+% In the discussion, you write mor interpretatively and colorfully about the results. Whereas you kept it concise in the conclusion, you write more in-depth about the subject in the discussion section.
+% Evaluate the research: you may discuss your expectations of possible causes of and consequences of the results, possible limitations and suggestions for follow-up research.
+
+% Start your discussion with the validity of your research. Then discuss the results and indicate whether they meet your expectations.
+% In this section, you will give explanations for meeting or not meeting these expectations.
+% Describe how your results fit with the framework that you have drawn in the first chapter (introduction, motivation, theoretical framework, and research questions/hypotheses).
+%Show how the finding provide new or different insights into what was already known.
+
+% Present the limitation of your research in a new paragraph within the discussion. Describe which observations you can make based on the research results.
+% If there are some side notes that can be made to the research or you were hindered by certain limitations, these issues can explain of the results you obtained.
+% Name these, but also explain how there factors can be improved in the future research.
+
+%% --------------------------- CHECKLIST -------------------------------------
+% - The validity of the research is demonstrated.
+% - New insights are explained.
+% - The limitations of the research are discussed.
+% - It is indicated whether expectations were justified.
+% - Possible causes and consequences of the results are discussed.
+% - Suggestions for possible follow-up research are made.
+% - Own interpretations have been included in the discussion.
+% - There are no suggestions for follow-up research that are too vague.
+
+%%-----------------------------------------------------------------------------------------------------------------
+%%---------------FUTURE WORK---------------------------------------------------------------------------------
+%%-----------------------------------------------------------------------------------------------------------------
+
+\chapter{Afterword / Evaluation / Reflection / Future Work}
+
+%%-----------------------------------------------------------------------------------------------------------------
+%%----------------APPENDIX----------------------------------------------------------------------------------
+%%-----------------------------------------------------------------------------------------------------------------
+
+\clearpage
+
+\addcontentsline{toc}{chapter}{\bibname}
+\bibliographystyle{unsrt}
+
+\bibliography{main}
+
+\import{sections/appendices/}{appendices.tex}
+
+
+\end{document}

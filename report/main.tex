@@ -1,4 +1,4 @@
-\documentclass[a4paper,table]{article}
+\documentclass[a4paper,table]{report}
 
 \usepackage[table]{xcolor}
 \usepackage{amsmath, amsfonts, mathtools}
@@ -23,6 +23,7 @@
 
 \usepackage{fontspec}
 \newfontfamily\georgia[Ligatures=TeX,ItalicFont={georgiai.ttf}]{georgia.ttf}
+%%CUSTOM THINGS
 
 \title{
     \includegraphics[width=1\textwidth]{front.jpg} \\
@@ -67,7 +68,8 @@
 \restoregeometry
 %Introduction section
 \import{sections/introduction/}{introduction.tex}
-
+%Problem section
+\import{sections/problem/}{problem.tex}
 \import{sections/objective/}{objective.tex}
 %Theory section
 %\import{sections/theory/}{theory.tex}
@@ -79,5 +81,6 @@
 \import{sections/results/}{results.tex}
 %Discussion section
 \import{sections/discussion/}{discussion.tex}
+\import{sections/appendices/}{appendices.tex}
 
 \end{document}
