@@ -2,25 +2,26 @@
 **[INTRO MISSING]**
 \subsection{Interaction Technique issues}
 **[INTRO MISSING]**
-[New Directions in 3D User Interfaces] presents four ways that the majority of interaction techniques exhibit generality:
+The selection and design of an interaction in general are hard to apply to a specific problem or context. From their extencive study about 3D interfaces,Bowman et al. \cite{interactions:Bowman2006} summarize four ways that the majority of interaction techniques exhibit generality:
 \begin{itemize}
   \item Application- and domain-generality: The technique was not designed with any particular application or application domain in mind, but rather was designed to work with any application.
-  \item Task-generality: The technique was designed to work in any task situation, rather than being designed to target a specific type of task. For example, the design of the ray-casting technique does not take into account the size of the objects to be selected and becomes very difficult to use with very small objects (Poupyrev et al. 1997).
-  \item Device-generality: The technique was designed without consideration for the particular input and display devices that would be used with the technique. Often techniques are implemented and evaluated using particular devices, but the characteristics of those devices are not considered as part of the design process. For example, the HOMER technique (Bowman and Hodges 1997) is assumed to work with any six-degree-of-freedom input device and any display device, but all of the evaluations of this technique have used a wand-like input device and a head-mounted display (HMD).
+  \item Task-generality: The technique was designed to work in any task situation, rather than being designed to target a specific type of task. For example, the design of the ray-casting technique does not take into account the size of the objects to be selected and becomes very difficult to use with very small objects \cite{interaction:Poupyrev1997}.
+  \item Device-generality: The technique was designed without consideration for the particular input and display devices that would be used with the technique. Often techniques are implemented and evaluated using particular devices, but the characteristics of those devices are not considered as part of the design process. For example, the HOMER technique \cite{interactions:Bowman1997} is assumed to work with any six-degree-of-freedom input device and any display device, but all of the evaluations of this technique have used a wand-like input device and a head-mounted display (HMD).
   \item User-generality: The technique was not designed with any particular group of users or user characteristics in mind, but rather was designed to work for a "typical" user.
 \end{itemize}
 
 \subsection{Occlusion problem}
-A problem with interactions in VR that has a very small significance on screen-based UI is occlusion. Since the user interacts and moves in a VE in 3D and with 3D objects, the possiblity of objects blocking each other. To solve this the user can move arounid in the virtual space and hopefully getting an angle that occludes the object, or use a selection tool that can be bent around the first object or pass through it. [Large Scale Cut Plane:] offers a different solution, where the user can "slice the environment and hide it in order to get access to the desired object.
+A problem with interactions in VR that has a very small significance on screen-based UI is occlusion. Since the user interacts and moves in a VE in 3D and with 3D objects, the possiblity of objects blocking each other. To solve this the user can move arounid in the virtual space and hopefully getting an angle that occludes the object, or use a selection tool that can be bent around the first object or pass through it. Mossel offers in her study a different solution, where the user can "slice the environment and hide it in order to get access to the desired object.\cite{interactions:Mossel2016}
 This method were preferable from the standard method which is to move and find a better angle.
 \subsection{Human body limitations}
-**[INTRO MISSING]**
-Fatigue is one of the biggest problems with VR [A survey of 3D object selection techniques for virtual environments]. (Add more content about fatigue)
+One of the main differences with intracting in a virtual environment compared to a screen interface is the importance of the human body, which brings both opputinities and limitations. this section will shine a light on some major limitations that are important to keep in mind when working with VR interfaces and interactions.
+\subsubsection{Fatigue}
+Fatigue is one of the biggest problems with VR \cite{limitations:burdea2003virtual}. (Add more content about fatigue)
 Selection techniques are more severe on arm and wrist strain/pain while navigation can induce simulation sickness.(expand)
-
-Physical reach is also a big problem when interacting in a virtual environment. It limits the interactionspace to the length of the user's body (most often arms).
-
-The field of view of the user (just by moving their eyes) is about 94 degrees in a cone shape (circular vision). Past 77 degrees is considered peripheral vision and is not focusable without turning. The user can rotate their head 30 degrees without any constraint, and max out at 55 degrees. Looking up is 20 degrees as comfortable and 60 as max. Looking down is comfortable to about 12 degrees with a max of 40 degrees. (Create image to display this). By combining all of this we get three directional zones for content, as explained by (Alger 2015):
+\subsubsection{Reach}
+Physical reach is also a big problem when interacting in a virtual environment. It limits the interactionspace to the length of the user's body (most often arms) if the interaction technique is direct manipulation (see Section \ref{theory:toolsandtech}).
+\subsubsection{Field of view}
+When working with interfaces on a screen, the designer and the system knows what is visible to the user at any point in time. When diving into VR however, the tables are turned. The user has full control of what is visible at any time, which has to be acounted for. The origin of this the same that we experience everyday in our daily lives, we have information all around us but our vision is restricted to our field of view. The field of view of the user (in VR and the real world, just by moving their eyes) is about 94 degrees in a cone shape (circular vision). Past 77 degrees is considered peripheral vision and is not focusable without turning. The user can rotate their head 30 degrees without any constraint, and max out at 55 degrees. Looking up is 20 degrees as comfortable and 60 as max. Looking down is comfortable to about 12 degrees with a max of 40 degrees. (Create image to display this). By combining all of this we get three directional zones for content, as explained by Alger in his study about UX for VR \cite{UX:Alger2015}:
 \begin{itemize}
   \item Comfortable content zone: 0 - 77°
   \item Peripheral zone 77° - 102°
