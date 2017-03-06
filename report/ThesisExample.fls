@@ -89,6 +89,8 @@ INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/varwidth/varwidth.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/varwidth/varwidth.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/varwidth/varwidth.sty
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/was/gensymb.sty
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/was/gensymb.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/blindtext/blindtext.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/blindtext/blindtext.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/tools/xspace.sty
@@ -176,6 +178,8 @@ INPUT sections/problem/problem.tex
 INPUT sections/problem/problem.tex
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
+INPUT sections/related_work/related-work.tex
+INPUT sections/related_work/related-work.tex
 INPUT sections/methodology/methodology.tex
 INPUT sections/methodology/methodology.tex
 INPUT sections/methodology/subsections/literature-review.tex
@@ -200,6 +204,8 @@ INPUT sections/theoretical_framework/subsections/interaction-tools.tex
 INPUT sections/theoretical_framework/subsections/interaction-tools.tex
 INPUT sections/theoretical_framework/subsections/interface-design.tex
 INPUT sections/theoretical_framework/subsections/interface-design.tex
+INPUT sections/theoretical_framework/subsections/environment-positioning.tex
+INPUT sections/theoretical_framework/subsections/environment-positioning.tex
 INPUT sections/results/results.tex
 INPUT sections/results/results.tex
 INPUT sections/results/subsections/interviews.tex
