@@ -1,0 +1,45 @@
+Feedback
+
+Overall
+
+Introduction
+- Make problem into a subsection
+- Explain HMD (Head mounted display)
+- make "Virtual Reality" into VR
+- Check last sentence of first block. add footnote for first statement
+- Makybe check dollar sign
+(Problem)
+- Move "NK" to end of the section
+- Maybe have NK in the itroduction.
+- Make purpose more general.
+- Make focus of professionals a part of limitations
+- explain more about working with a problem
+- Rephrase "I will".
+- What is "this environment", See comments
+
+Related work
+- Explain DOF! in termin and as full word
+- Rephase first sentence
+- change applications to a chapter
+
+Method
+- Make first part more general.
+- list hardware or move to "limitation"
+- Remove the professional limitaion
+- Remove or explain timetable and sprints
+- change place of interview sections
+- Refer to sprint table.
+- section between interviews and prototypes.
+- Explain rapid prototyping
+- EXplain participant sections from interview
+- Explain three boxes method
+- fix "a."
+-Check last section, mabe "evaluation" with test as subsection
+Theoretical Framework
+- Explain the last sentence of UCD
+- CHeck virtual world usage
+- Add "a study by " to reaycast section.
+-
+
+Prototype ideas:
+Make a cardboard scenario with post-its
