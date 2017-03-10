@@ -3,40 +3,41 @@ Feedback
 Overall
 
 Introduction
-- Make problem into a subsection
+- Make problem into a subsection  - DONE
 - Explain HMD (Head mounted display)
-- make "Virtual Reality" into VR
-- Check last sentence of first block. add footnote for first statement
-- Makybe check dollar sign
+- make "Virtual Reality" into VR - DONE
+- Check last sentence of first block. add footnote for first statement-  DONE
+- Maybe check dollar sign - DONE
 (Problem)
-- Move "NK" to end of the section
-- Maybe have NK in the itroduction.
-- Make purpose more general.
-- Make focus of professionals a part of limitations
-- explain more about working with a problem
-- Rephrase "I will".
-- What is "this environment", See comments
+- Move "NK" to end of the section - DISCARDED
+- Maybe have NK in the introduction.- DONE
+- Make purpose more general. - DONE
+- Make focus of professionals a part of limitations - DONE
+- explain more about working with a problem - ????
+- Rephrase "I will".  - DONE
+- What is "this environment", See comments  - DONE
 
 Related work
-- Explain DOF! in termin and as full word
-- Rephase first sentence
-- change applications to a chapter
+- Explain DOF! in termin and as full word - DONE
+- Rephase first sentence - DONE
+- change applications to a chapter - DISCARDED
 
 Method
-- Make first part more general.
-- list hardware or move to "limitation"
-- Remove the professional limitaion
+- Make first part more general. - DONE
+- list hardware or move to "limitation" - DONE
+- Remove the professional limitaion - DONE
 - Remove or explain timetable and sprints
-- change place of interview sections
-- Refer to sprint table.
-- section between interviews and prototypes.
-- Explain rapid prototyping
+- change place of interview sections - DONE
+- Refer to sprint table. - DONE
+- section for analysis between interviews and prototypes. - DONE
+- Explain rapid prototyping - DONE
 - EXplain participant sections from interview
 - Explain three boxes method
-- fix "a."
--Check last section, mabe "evaluation" with test as subsection
+- fix "a." - DONE
+-Check last section, mabe "evaluation" with test as subsection - DONE
+
 Theoretical Framework
-- Explain the last sentence of UCD
+- Explain the last sentence of UCD - DONE
 - CHeck virtual world usage
 - Add "a study by " to reaycast section.
 -
