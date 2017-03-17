@@ -203,6 +203,12 @@ INPUT ./pictures/tilt_activemenu.PNG
 INPUT pictures/tilt_passivemenu.PNG
 INPUT ./pictures/tilt_passivemenu.PNG
 INPUT ./pictures/tilt_passivemenu.PNG
+INPUT pictures/vizor_objects.png
+INPUT ./pictures/vizor_objects.png
+INPUT ./pictures/vizor_objects.png
+INPUT pictures/vizor_programming.png
+INPUT ./pictures/vizor_programming.png
+INPUT ./pictures/vizor_programming.png
 INPUT sections/methodology/methodology.tex
 INPUT sections/methodology/methodology.tex
 INPUT sections/methodology/subsections/literature-review.tex
