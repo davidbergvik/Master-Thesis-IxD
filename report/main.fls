@@ -241,6 +241,14 @@ INPUT sections/results/results.tex
 INPUT sections/results/results.tex
 INPUT sections/results/subsections/interviews.tex
 INPUT sections/results/subsections/interviews.tex
+INPUT sections/results/subsections/prototypes.tex
+INPUT sections/results/subsections/prototypes.tex
+INPUT pictures/lo-fi/scalescenario3.PNG
+INPUT ./pictures/lo-fi/scalescenario3.PNG
+INPUT ./pictures/lo-fi/scalescenario3.PNG
+INPUT pictures/lo-fi/birdmenu2.PNG
+INPUT ./pictures/lo-fi/birdmenu2.PNG
+INPUT ./pictures/lo-fi/birdmenu2.PNG
 INPUT sections/discussion/discussion.tex
 INPUT sections/discussion/discussion.tex
 INPUT main.bbl
