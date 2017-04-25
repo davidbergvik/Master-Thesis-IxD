@@ -3,6 +3,7 @@
 There is a lot of parameters in a VR to take into account when deciding on a selection tool and technique, which is explained by the great number of studies that have been conducted in this field of VR \cite{tools:poupyrev1996go,tools:mine1997moving,tools:Cutler1997,tools:bowman2001introduction}. Some of the tools and techniques that exists for VE will be explained.
 
 \subsection{Direct Manipulation}
+\label{theory:toolsandtech:direct}
 One of the best and most intuitive ways of interacting in VR are using direct manipulation.\cite{tools:jacoby1994gestural} This technique mimics the way that humans interact and manipulate objects in the real world; Grabbing with our hands. There have been studies with variations of this technique which have proved that it performes great as an intuiative tool for interacting in VR.\cite{tools:Buchmann2004,tools:Cutler1997} These studies also conclude that direct manipulation is preferable when the target users are novices at using VR. Direct manipulation can also be used for traveling within the VE by using Scale-World grab, which was created by Mine.\cite{tools:mine1997moving} This allows the user to move around by grabing inside the VE and moving hands to the oposite direction of where the desired destination is. For example: If the user wants to go forward then they'll extend their arms formward, grab, then pull thier hands towards their body. Furthermore Mine explains how the Virtual Hand (direct manipulation) can be combined with a raycast (from section \ref{theory:toolsandtech:raycast}) to provide delicate object manipulation and also reach occluded objects. This is explained as a technique shift between the two that occurs when the hand/controller appears/disappears from the users field of view.
 
 \subsection{Raycast techniques}
@@ -29,3 +30,13 @@ Strauss et al. presents a selector in his course notes\cite{tools:strauss2002des
   \item The users attention stay on the object as the tools are in direct proximity to the active object.
 
 \end{itemize}
+
+\subsection{Environment Positioning}
+Being able to position yourself within a virtual environment is fundamental in order to interact with it and is important to investigate.\cite{tools:warren2014perception} Even if the physical space around the user is confined (see section \ref{theory:bodyLimits} for more information), the virtual space can be infinite. In order to harness the power of an immense virtual environment, some kind of positioning tool or traveling technique can be implemented. This will allow the user to interact with distant object through direct manipulation, get a different perspective of the virtual world and more as explained by Robinett and Holloway. \cite{positioning:Robinett1992} The authors present in the study the three actions that can be implemented into a virtual environment. These three are fundamental for positioning:
+\begin{itemize}
+  \item Translate - Move object, teleport/transport the user
+  \item Rotate - Grab and turn an object, tilt the entire world
+  \item Scale - Scale an object, expand/shrink the world/user
+\end{itemize}
+
+A positioning system can be created by selecting and combining tools and techniques in Section \ref{theory:toolsandtech}.
