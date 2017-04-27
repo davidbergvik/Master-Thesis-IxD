@@ -8,7 +8,7 @@ One of the best and most intuitive ways of interacting in VR are using direct ma
 
 \subsection{Raycast techniques}
 \label{theory:toolsandtech:raycast}
-Studies have concluded that in an environment with a sparse selection of objects with a volume that is not too small, using a raycast is fast and reliable. [insert raycast (pointer) references here] When some of these parameters change however, the raycast tool with a "laser-pointer" technique experiences more issues. In an environment that contains alot of objects in a small space, the error rate when trying to select an object rises\cite{tools:ware1988using}. This factor is multiplied when movement is added to the object (typical for games).
+Studies have concluded that in an environment with a sparse selection of objects with a volume that is not too small, using a raycast is fast and reliable\cite{tools:fitzmaurice1993situated}. When some of these parameters change however, the raycast tool with a "laser-pointer" technique experiences more issues. In an environment that contains alot of objects in a small space, the error rate when trying to select an object rises\cite{tools:ware1988using}. This factor is multiplied when movement is added to the object (typical for games).
 
 Multiple studies argue that there are better ways to perform object selection in a more complex and dynamic environment by tweaking this concept\cite{selection:Argelaguet2008,interactions:Bowman1997}. By using techniques that are designed for dynamic and cluttered environment the speed and error rate can be reduced. Two of these techniques are 'zoom' and 'expand'. When using "zoom" the surrounding area of the selected object is "view through a mangifier" upon object selection to simplify the selection. Using "expand" upon selection resizes the object and adjacent objects to a larger size, for easier selection.
 
@@ -32,11 +32,11 @@ Strauss et al. presents a selector in his course notes\cite{tools:strauss2002des
 \end{itemize}
 
 \subsection{Environment Positioning}
-Being able to position yourself within a virtual environment is fundamental in order to interact with it and is important to investigate\cite{tools:warren2014perception}. Even if the physical space around the user is confined (see section \ref{theory:bodyLimits} for more information), the virtual space can be infinite. In order to harness the power of an immense virtual environment, some kind of positioning tool or traveling technique can be implemented. This will allow the user to interact with distant object through direct manipulation, get a different perspective of the virtual world and more as explained by Robinett and Holloway\cite{positioning:Robinett1992}. The authors present in the study the three actions that can be implemented into a virtual environment. These three are fundamental for positioning:
+Being able to position yourself within a virtual environment is fundamental in order to interact with it and is important to investigate\cite{tools:warren2014perception}. Even if the physical space around the user is confined (see section \ref{theory:bodyLimits} for more information), the virtual space can be infinite. In order to harness the power of an immense virtual environment, some kind of positioning tool or traveling technique can be implemented. This will allow the user to interact with distant object through direct manipulation, get a different perspective of the virtual world and more as explained by Robinett and Holloway\cite{positioning:Robinett1992}. The authors present in the study the three actions that can be implemented into a virtual environment and are fundamental for positioning:
 \begin{itemize}
-  \item Translate - Move object, teleport/transport the user
-  \item Rotate - Grab and turn an object, tilt the entire world
-  \item Scale - Scale an object, expand/shrink the world/user
+  \item \textbf{Translate} Move object, teleport/transport the user
+  \item \textbf{Rotate} Grab and turn an object, tilt the entire world
+  \item \textbf{Scale} Scale an object, expand/shrink the world/user
 \end{itemize}
 
 A positioning system can be created by selecting and combining tools and techniques in Section \ref{theory:toolsandtech}.
