@@ -36,7 +36,6 @@ Changing the position of an object is achieved by pointing the ray at the object
 \subsection{Tilt Brush}
 \label{theory:best-practice:tiltbrush}
  One of the applications that was released with HTC Vive is the praised application\footnote{http://store.steampowered.com/app/327140/?l=english} 'Tilt Brush' by Google \footnote{https://www.tiltbrush.com/} where the user can use the existing handcontrollers as paintbrushes and paint in 3D space. This application highlights many of the interactions that are essential when manipulating a VE. Some of these interactions are explained further in this section.
-
  \begin{itemize}
 \item \textbf{Creating objects}
 Creating a new painting stroke is the core of the application, and can as such be accessed directly with primary triggers on both controllers.
@@ -65,7 +64,7 @@ By using a raycast (see Section \ref{theory:toolsandtech}) the user can teleport
  \label{fig:tilt}
  \end{figure}
 \subsection{Vizor}
-Vizor\footnote{https://vizor.io/} is a web-based application that allow the user to create VR experinces and applications in a web-browser. The application is based on WebVR \footnote{https://webvr.info/} and is Object Oriented (OO), where each object in a scene has properties in the form of other objects. Some of these properties (positioning, scale and rotation) can be accessed and edited in "Build" mode (see Figure \ref{fig:vizor:buildmode}) while more complex properties and inner object are accessed through the "Program" mode (see Figure \ref{fig:vizor:programmode}).
+Vizor\footnote{https://vizor.io/} is a web-based application that allow the user to create VR experinces and applications in a web-browser. The application is based on WebVR \footnote{https://webvr.info/} and is Object Oriented (OO), where each object in a scene has properties in the form of other objects. Some of these properties (positioning, scale and rotation) can be accessed and edited in "Build" mode (see Figure \ref{fig:vizor:buildmode}) while more complex properties and inner object are accessed through the "Program" mode (see Figure \ref{fig:vizor:programmode}). This approach allows the user to get a holistic view of the entire scene and all objects aswell as their properties and relations to eachother. instead of a list heirarchy with all of the objects, the scene object is the central hub, connected to all objects in it (except for inner objects that are connected through a parent object). One of these connections is shown in Figure \ref{fig:vizor:hierarchycamera}. The approach to divide the process into two parts is also present in the form of objects and patches, these are displayed in a list (Figure \ref{fig:vizor:objectspatches}). Objects are regular 3D objects that can be added to the scene, patches are properties that can be added to these objects.
 
 \begin{figure}
 \begin{subfigure}{.5\textwidth}
@@ -82,4 +81,21 @@ Vizor\footnote{https://vizor.io/} is a web-based application that allow the user
 \end{subfigure}
 \caption{Different modes of web application Vizor}
 \label{fig:vizor}
+\end{figure}
+
+\begin{figure}
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=.8\linewidth]{vizor_hierarchy_camera.png}
+  \caption{A connection between the scene and the main camera}
+  \label{fig:vizor:hierarchycamera}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=.8\linewidth]{vizor_objects_patches.png}
+  \caption{Program mode. Properties and objects can be connected and edited using mouse. }
+  \label{fig:vizor:objectspatches}
+\end{subfigure}
+\caption{Different elements in Vizor}
+\label{fig:vizorelements}
 \end{figure}
