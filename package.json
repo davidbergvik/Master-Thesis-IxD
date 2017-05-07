@@ -1,8 +1,11 @@
 {
-  "name": "git-log-book",
+  "name": "git-master-thesis",
   "version": "1.0.0",
-  "description": "A helper module to write a logbook",
-
+  "description": "Master Thesis in interaction design.",
+  "scripts":{
+  "spellcheck":"for f in report/sections/**/*.tex ; do echo $f ; aspell --lang=en --mode=tex list < $f | sort | node filter.js | uniq -c ; done",
+  "dumpwords":"for f in report/sections/**/*.tex ; do echo $f ; aspell --lang=en --mode=tex --extra-dicts=./project.dic list < $f | sort | uniq >> project.dic ; done"
+  },
   "keywords": [
     "git",
     "help",
