@@ -9,12 +9,12 @@ ID = log(2) * ( 2 * D / W )
 
 where ID is the index of difficulty, D is the distance from startingpoint to the middle of the correct target. W is the width of the target (caluculated on the axis where the pointer will travel).
 
-\subsection{Interface Design in VR}
+\subsection{Interface Design for Virtual Reality}
 When designing UI for VR there are new challenges and choices to make in order to please the user and keep the functionality of the UI. The interface of a VR system is explained in Sherman's extensive book about VR\cite{interface:sherman2002understanding}
  \begin{quote}
    The access point through the boundary between the recipient and the virtual world is the user interface
  \end{quote}
  Sherman explains how virtual worlds are designed for a specific medium and interface and later adapted to facilitate for different user interfaces. This often brings a lower quality to the adapted system according to Sherman who later concludes that the critical part of the process lies in selecting a suiting medium for the intended goal and content\cite{interface:sherman2002understanding}.
 
-\subsubsection{Placement and HUD}
+\subsubsection{Placement and Head-Up Display}
 In order to present information to the user in VR approaches like in-world UI's or Heads-Up-Displays (HUD) can be appended. An in-world UI act like a physical object in the VE and has a world-related position. An example of a in-world UI is a selector\label{theory:toolsandtech:selector} which has a position relative to the selected object. Interactions with this type of UI can be achieved using techniques like direct manipulation\label{theory:toolsandtech:direct} and ray-casts\label{theory:toolsandtech:raycast}. A HUD is a interface that is attached to the user's field of view and does not have a position related to the VE. HUD usage in VR applications consist mostly from displaying information about the user, virtual object or the environment\cite{interface:sherman2002understanding}.
