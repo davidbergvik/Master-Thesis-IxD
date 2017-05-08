@@ -23,11 +23,10 @@ process.stdin.on('readable', () => {
   if(chunk){
       data += chunk;
   }
-  console.log("new chunk");
+
 });
 
 process.stdin.on('end', () => {
-  console.log("word data: " + data);
   let filteredWords = data.split('\n').filter(word => !dic.includes(word)).filter(word => word);
   filteredWords.forEach((filteredWord) => console.log(filteredWord));
 });
