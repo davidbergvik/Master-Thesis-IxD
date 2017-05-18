@@ -120,7 +120,98 @@ Concepts that made it through initial testing were drawn in Tilt Brush (see Figu
 \label{fig:lofi:tilt}
 \end{figure}
 
-\subsection{Hi-Fi Prototypes}
-In the early stages of the experience design process (described in section \ref{intro:experiencedesign}) a tool for rough prototyping as explained in section \ref{result:hifi:midlevel} provides an intuitive and fast way to explore concepts without requiring previous scripting or VR development knowledge. When the concepts have been selected and are being developed, a tool as a test suite and object manipulation is presented. These concepts are presented in this section.
-\subsubsection{Concept Creating and Validation}
-\subsubsection{Testing Suite and }
+\subsection{Hi-Fi Prototype}
+Concepts and elements from the lo-fi prototypes were refined into hi-fi prototype. The hi-fi prototype is designed for mid-level and high-level VR devices, the interactive tests that followed were created for a HTC Vive. The prototype features elements from two main concepts/tools that were discovered.
+
+The first is a tool for rough prototyping, as explained in section \ref{result:hifi:midlevel},that provides an intuitive and fast way to explore concepts without requiring previous scripting or VR development knowledge. This tool are to be used in the early stages of the experience design process (described in section \ref{intro:experiencedesign}). In later stages, when the concepts have been selected and are being developed, a tool acting as a test suite and with object manipulation is preferred. The hifi prototyp along with these concepts are presented in this section, which also covers results from user testing and concept evaluation.
+\subsubsection{Main interface - Belt UI}
+The main interface is designed for the users ergonomic position when seated, displayed from the hip of the user.(Figure \ref{fig:lofi:belt-ui}) The main purpose of this interface is to create a new object and place them into the world (Figure \ref{fig:lofi:belt-ui:add}), as well as to change properties of selected object/objects (Figure \ref{fig:lofi:belt-ui:props}). The centered feature in this UI is the scene-hierarchy, from where objects can be selected and created. The purpose of this approach is to introduce the hierarchy to the user as the starting point of the process. The users FOV will look like an extension of a work-bench (Figure \ref{fig:lofi:fov:belt-ui}), and can be accessed by pressing the application-button on the controller.
+%
+% %% ********* BELT UI IMAGES **********
+% \begin{figure}
+% \begin{subfigure}{.5\textwidth}
+%   \centering
+%   \includegraphics[width=.8\linewidth]{hi-fi/belt-add.jpg}
+%   \caption{Properties of a selected object in the belt UI}
+%   \label{fig:lofi:belt-ui:props}
+% \end{subfigure}%
+% \begin{subfigure}{.5\textwidth}
+%   \centering
+%   \includegraphics[width=.8\linewidth]{hi-fi/belt-props.jpg}
+%   \caption{A selection of objects that can be added to the VE}
+%   \label{fig:lofi:belt-ui:add}
+% \end{subfigure}
+% \caption{Paper sketches of the primary UI of the tool: Belt UI}
+% \label{fig:lofi:belt-ui}
+% \end{figure}
+
+%% ********* BELT UI IMAGES **********
+
+% \begin{figure}
+% \begin{subfigure}{.5\textwidth}
+%   \centering
+%   \includegraphics[width=.8\linewidth]{hi-fi/add-object.jpg}
+%   \caption{Properties of a selected object in the belt UI}
+%   \label{fig:lofi:object:add}
+% \end{subfigure}%
+% \begin{subfigure}{.5\textwidth}
+%   \centering
+%   \includegraphics[width=.8\linewidth]{hi-fi/move-object.jpg}
+%   \caption{A selection of objects that can be added to the VE}
+%   \label{fig:lofi:object:move}
+% \end{subfigure}
+% \caption{Paper sketches of the primary UI of the tool: Belt UI}
+% \label{fig:lofi:object}
+% \end{figure}
+
+\subsubsection{User Interface - Object Manipulation}
+\label{result:lofi:selector}
+A secondary UI is placed on the touchpad of the primary controller as seen in Figure \ref{fig:lofi:fov:selector}, its primary use is manipulating selected objects. The UI is designed as a pie-menu (Figure \ref{fig:lofi:selector:select}) that grants the oppertunity one level of sub-menus (Figure \ref{fig:lofi:selector:submenu}). The selection UI is hidden by default, and can be opened by clicking on the touchpad on the controller (for hardware specs, see section \ref{theory:hardware:controllers}). The UI can be closed by pressing in the middle of the trackpad when its open.
+
+%% ********* Object manipulation UI IMAGES **********
+%
+% \begin{figure}
+% \begin{subfigure}{.5\textwidth}
+%   \centering
+%   \includegraphics[width=.8\linewidth]{hi-fi/selector-submenu.jpg}
+%   \caption{Accessing a submenu of the UI}
+%   \label{fig:lofi:selector:select}
+% \end{subfigure}%
+% \begin{subfigure}{.5\textwidth}
+%   \centering
+%   \includegraphics[width=.8\linewidth]{lo-fi/selector-select.jpg}
+%   \caption{Selection in the UI}
+%   \label{fig:lofi:selector:submenu}
+% \end{subfigure}
+% \caption{Multilevel UI for object manipulation}
+% \label{fig:lofi:selector}
+% \end{figure}
+
+\subsubsection{Object selection and manipulation}
+Interactions and sequences for selecting and manipulating objects (Figure \ref{fig:lofi:object}) are explained here as scenarios.
+\begin{itemize}
+  \item \textbf{Selecting an object} The user points the controller towards object, so that the raycast hits it. Then the user clicks the selection-button to select the targeted object.
+  \item \textbf{Moving an object} When the user selects the object, a bounding-box becomes visible around the object along with three axis' and a grid (Figure \ref{fig:lofi:belt-ui:props}). By targeting the bounding-box and holding the selection-button the user can now use the raycast to position the object along the grid. If the user wants to move the object in the third dimension (that is not covered by the grid), grab the grid in a similar fashion and use the raycast to move. It's state is movable by default. Unless changed in the selector UI (section \ref{result:lofi:selector}), it can be moved straight away. The axis' of the grid can be changed using the selector UI.
+  \item \textbf{Creating a new object} The user opens the Belt interface and selects the "New Component" button (in the hierarchy section), which displays a new view (Figure \ref{fig:lofi:object:add}). This view contains miniatures all objects that are avaliable to the user. The user finds the desired object, grabs it by holding the selection-button and points in the world to deside its position. the object is represented as a halv-transperant version of itself, and is placed by releasing the selection-button.
+  \item \textbf{Duplicating an object} The user selects the object thats desired for duplication then opens the selector UI, then selects the 'Duplicate' option. The menu closes and the user points the ray-cast toward the grid of the original object. An identical half-transperant object appears at the end of the ray, onto to the grid. When the user is satisfied with the position, the selection-button is pressed to create the object in the selected location.
+  \item \textbf{Properties of an object} The user opens the Belt UI, then selects an object with the raycast. The selection can be made on the actual object or on the object name in the hierarchy in the UI. When an object is selected, all properties for this object is displayed in the right section of the Belt UI (Figure \ref{fig:lofi:belt-ui:props}). A new property can be added by selecting the "Add property" button.
+\end{itemize}
+
+%% ********* FIELD-OF-VIEW IMAGES **********
+%
+% \begin{figure}
+%   \begin{subfigure}{.5\textwidth}
+%   \centering
+%   \includegraphics[width=.8\linewidth]{hi-fi/belt-perspective.jpg}
+%   \caption{Field of view for the user with the belt UI open}
+%   \label{fig:lofi:fov:belt-ui}
+%   \end{subfigure}%
+%   \begin{subfigure}{.5\textwidth}
+%     \centering
+%     \includegraphics[width=.8\linewidth]{hi-fi/selector-perspective.jpg}
+%     \caption{Field of view for the user with a visible selector}
+%     \label{fig:lofi:fov:selector}
+% \end{subfigure}
+% \caption{Field of view for the user with different parts of the UI}
+% \label{fig:lofi:fov}
+% \end{figure}
