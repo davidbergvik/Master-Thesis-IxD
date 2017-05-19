@@ -183,11 +183,12 @@ A secondary UI is placed on the touchpad of the primary controller as seen in Fi
 \label{fig:lofi:selector}
 \end{figure}
 
-\subsubsection{Object selection and manipulation}
+\subsubsection{User Input and Object manipulation}
 Interactions and sequences for selecting and manipulating objects (Figure \ref{fig:hifi:scenario}) are explained in this section as user scenarios.
 \begin{itemize}
+  \item \textbf{Transportation} The user hold the touchpad of the secondary controller, which then points a raycast from the controller. The user points to a desired position and releases the touchpad to teleport to the targeted location.
   \item \textbf{Selecting an object} The user points the controller towards object, so that the raycast hits it. Then the user clicks the selection-button to select the targeted object.
-  \item \textbf{Moving an object} When the user selects the object,  a selection plane becomes visible alongside the object (Figure \ref{fig:hifi:scenario:selected}). By targeting the object and holding the selection-button the user can now use the raycast to position the object along the selection plane. If the user wants to move the object in the third dimension (that is not covered by the grid), grab the grid in a similar fashion and points with the raycast to the plane that the object should be elevated/moved to. It's state is movable by default. Unless changed in the selector UI (section \ref{result:hifi:selector}), it can be moved after creation or selection. The axis' of the grid can be changed using the selector UI.
+  \item \textbf{Moving an object} When the user selects the object,  a selection plane becomes visible alongside the object (Figure \ref{fig:hifi:scenario:selected}). By targeting the object and holding the selection-button the user can now use the raycast to position the object along the selection plane. If the user wants to move the object in the third dimension (that is not covered by the grid), grab the grid in a similar fashion and points with the raycast to the plane that the object should be elevated/moved to. It's state is movable by default. Unless changed in the selector UI (section \ref{result:hifi:selector}), it can be moved after creation or selection. The axis' of the grid can be changed using the selector UI. The user can use the direct selection button on the secondary controller to move an object using direct selection (explained in section \ref{theory:toolsandtech:direct}).
   \item \textbf{Creating a new object} The user opens the Belt interface and selects the "New Component" button (in the hierarchy section), which displays a new view (Figure \ref{fig:hifi:scenario:add}). This view displays miniatures of objects that are avaliable to the user in the scene. The user finds the desired object, grabs it by holding the selection-button and points in the world to deside its position. The object is placed by releasing the selection-button.
   \item \textbf{Duplicating an object} The user selects the object thats desired for duplication then opens the selector UI, then selects the 'Duplicate' option. The duplicated object is created at the current point of the raycast.
   \item \textbf{Properties of an object} The user opens the Belt UI, then selects an object with the raycast. The selection can be made on the 3D object with the raycast or on the object name in the hierarchy in the UI. When an object is selected, all properties for this object is displayed in the right section of the Belt UI (Figure \ref{fig:hifi:scenescreen}). A new property can be added by selecting the "Add property" button.
@@ -211,6 +212,22 @@ Interactions and sequences for selecting and manipulating objects (Figure \ref{f
 % \caption{Field of view for the user with different parts of the UI}
 % \label{fig:lofi:fov}
 % \end{figure}
+\subsubsection{Mid-level Concept}
+\label{result:hifi:midlevel}
+The interviews and the hardware analysis as well as the theoretical framework in previous sections proves the validity of a mid-level solution within certain parts of the experience design process. Limited to the functionality for rough prototyping and the technical constraints, a mid-level design solution is presented. This solution has the same basic functionality as the high-level but with some limitations and changes, which are explained in this section.
+
+\begin{itemize}
+  \item The VR application is not connected to an existing VR scene, and does therefore not support altering of scenes.
+  \item Objects are selected with the touchpad.
+  \item The piemenu UI that is described in section \ref{result:hifi:selector} is opened by holding down the touchpad.
+  \item Selecting a "slice" in the piemenu UI does not trigger the action, but changes the mode accordingly, eg. When duplicate is pressed when an object is selected the menu closes and the mode changes to duplicate. When the user points to a surface and clicks the touchpad a duplicate of the previously selected object.
+  \item Moving an object requires the user to select the object (move-mode is selected as default upon selection), point to the desired position on a surface or reference plane and clicking the touchpad.
+  \item Teleportation is located in the piemenu UI.
+  \item There is no way to perform direct manipulation on objects.
+  \item The main UI, Belt UI from section \ref{result:hifi:beltui}, Can no longer be repositioned. It will appear in the users general direction each time it is opened.
+
+\end{itemize}
+
 \subsubsection{Usertests and evaluation}
 Common errors, habits and insights from usertests of the hi-fi prototyps are listed in this section. This data is analyzed in section \ref{discussion}.
 
@@ -235,7 +252,7 @@ Common errors, habits and insights from usertests of the hi-fi prototyps are lis
   \item Belt UI provides a comfortable workstation in a seated position.
   \item Interaction with Belt UI can cause awkward body positioning when using raycast.
   \item Text is hard to read, icons and graphics is easier to comprehend.
-  \item Placing a new object causes unintentional placements. 
+  \item Placing a new object causes unintentional placements.
 
   \item The concept is a really nice solution to the testing and manipulation problem when switching between HMD and computer screen.
   \item Users express the potential of this concept as a tool for fast prototyping in VR.
