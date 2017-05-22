@@ -116,7 +116,7 @@ Concepts that made it through initial testing were drawn in Tilt Brush (see Figu
   \caption{Accessing properties of an object}
   \label{fig:lofi:tilt:passivemenu}
 \end{subfigure}
-\caption{Lo-fi sketches. Created in Tilt Brush (see Section \ref{relatedwork:tiltbrush})}
+\caption{Lo-fi sketches created in Tilt Brush }
 \label{fig:lofi:tilt}
 \end{figure}
 
@@ -131,15 +131,15 @@ The main interface is designed for the users ergonomic position when seated, dis
 \begin{figure}
 \begin{subfigure}{.5\textwidth}
   \centering
-  \includegraphics[width=.8\linewidth]{hi-fi/beltui_props.png}
-  \caption{Properties of a selected object in the belt UI}
-  \label{fig:hifi:belt-ui:props}
+  \includegraphics[width=.8\linewidth]{hi-fi/beltui_add.png}
+  \caption{An interface for adding new objects to the VE}
+  \label{fig:hifi:belt-ui:add}
 \end{subfigure}%
 \begin{subfigure}{.5\textwidth}
   \centering
-  \includegraphics[width=.8\linewidth]{hi-fi/beltui_add.png}
-  \caption{A list of properties that can be added to the VE}
-  \label{fig:hifi:belt-ui:add}
+  \includegraphics[width=.8\linewidth]{hi-fi/beltui_props.png}
+  \caption{A list of properties that can be added to the selected object}
+  \label{fig:hifi:belt-ui:props}
 \end{subfigure}
 \caption{Digital representations of object properties and selectable objects in the primary UI: Belt UI}
 \label{fig:hifi:belt-ui}
@@ -156,7 +156,7 @@ The main interface is designed for the users ergonomic position when seated, dis
 
 \subsubsection{User Interface - Object Manipulation}
 \label{result:hifi:selector}
-A secondary UI is placed on the touchpad of the primary controller as seen in Figure \ref{fig:hifi:fov:selector}, its primary use is manipulating selected objects. The UI is designed as a pie-menu (Figure \ref{fig:hifi:selector:select}) that grants the oppertunity one level of sub-menus (Figure \ref{fig:hifi:selector:submenu}). The selection UI is hidden by default, and can be opened by clicking on the touchpad on the controller (for hardware specs, see section \ref{theory:hardware:controllers}). The UI can be closed by pressing in the middle of the trackpad when its open.
+A secondary UI (figure \ref{fig:hifi:selector}) is placed on the touchpad of the primary controller as seen in Figure \ref{fig:hifi:fov:selector}, its primary use is manipulating selected objects. The UI is designed as a pie-menu (Figure \ref{fig:hifi:selector:select}) that grants the oppertunity one level of sub-menus (Figure \ref{fig:hifi:selector:submenu}). The selection UI is hidden by default, and can be opened by clicking on the touchpad on the controller (for hardware specs, see section \ref{result:hardware:vive}, \ref{result:hardware:daydream}). The UI can be closed by pressing in the middle of the trackpad when its open.
 
 % ********* Object manipulation UI IMAGES **********
 \begin{figure}
@@ -171,16 +171,16 @@ A secondary UI is placed on the touchpad of the primary controller as seen in Fi
   \centering
   \includegraphics[width=.8\linewidth]{hi-fi/selector-submenu.png}
   \caption{Accessing a submenu of the UI}
-  \label{fig:lofi:selector:select}
+  \label{fig:hifi:selector:select}
 \end{subfigure}%
 \begin{subfigure}{.5\textwidth}
   \centering
   \includegraphics[width=.8\linewidth]{hi-fi/selector-select.png}
   \caption{Selection in the UI}
-  \label{fig:lofi:selector:submenu}
+  \label{fig:hifi:selector:submenu}
 \end{subfigure}
 \caption{Multilevel UI for object manipulation}
-\label{fig:lofi:selector}
+\label{fig:hifi:selector}
 \end{figure}
 
 \subsubsection{User Input and Object manipulation}
@@ -189,7 +189,7 @@ Interactions and sequences for selecting and manipulating objects (Figure \ref{f
   \item \textbf{Transportation} The user hold the touchpad of the secondary controller, which then points a raycast from the controller. The user points to a desired position and releases the touchpad to teleport to the targeted location.
   \item \textbf{Selecting an object} The user points the controller towards object, so that the raycast hits it. Then the user clicks the selection-button to select the targeted object.
   \item \textbf{Moving an object} When the user selects the object,  a selection plane becomes visible alongside the object (Figure \ref{fig:hifi:scenario:selected}). By targeting the object and holding the selection-button the user can now use the raycast to position the object along the selection plane. If the user wants to move the object in the third dimension (that is not covered by the grid), grab the grid in a similar fashion and points with the raycast to the plane that the object should be elevated/moved to. It's state is movable by default. Unless changed in the selector UI (section \ref{result:hifi:selector}), it can be moved after creation or selection. The axis' of the grid can be changed using the selector UI. The user can use the direct selection button on the secondary controller to move an object using direct selection (explained in section \ref{theory:toolsandtech:direct}).
-  \item \textbf{Creating a new object} The user opens the Belt interface and selects the "New Component" button (in the hierarchy section), which displays a new view (Figure \ref{fig:hifi:scenario:add}). This view displays miniatures of objects that are avaliable to the user in the scene. The user finds the desired object, grabs it by holding the selection-button and points in the world to deside its position. The object is placed by releasing the selection-button.
+  \item \textbf{Creating a new object} The user opens the Belt interface and selects the "New Component" button (in the hierarchy section), which displays a new view (Figure \ref{fig:hifi:beltui:add}). This view displays miniatures of objects that are avaliable to the user in the scene (figurt \ref{fig:hifi:scenario:add}). The user finds the desired object, grabs it by holding the selection-button and points in the world to deside its position. The object is placed by releasing the selection-button.
   \item \textbf{Duplicating an object} The user selects the object thats desired for duplication then opens the selector UI, then selects the 'Duplicate' option. The duplicated object is created at the current point of the raycast.
   \item \textbf{Properties of an object} The user opens the Belt UI, then selects an object with the raycast. The selection can be made on the 3D object with the raycast or on the object name in the hierarchy in the UI. When an object is selected, all properties for this object is displayed in the right section of the Belt UI (Figure \ref{fig:hifi:scenescreen}). A new property can be added by selecting the "Add property" button.
 \end{itemize}
@@ -237,17 +237,22 @@ Common errors, habits and insights from usertests of the hi-fi prototyps are lis
   \item Users cannot visually distinguish object positioning from reference plane positioning.
   \item Moving an object along the third axis (moving the reference plane) is not intuitive for users without experience or directions of usage.
   \item Placing object along the third axis by pointing at another surface causes confusion and is hard to grasp.
+  \item Its hard to place object at the edge of a surface when moving the reference plane.
 
   \item The selected object needs to be highlighted in order to identify it.
   \item Objects can be hard to select in complex environments due to occulusion
   \item Using direct manipulation on objects is a valuable tool.
   \item Moving objects across greater distances is hard with only teleportation as transportation.
+  \item Using teleportation as a tool for getting a closer look is interupting the user in their creative process.
   \item Placing objects far away is hard if the reference plane is not (close to) orthogonal relative to the user.
   \item Having objects move upon selections causes unintended movements.
+  \item It's hard to place objects next to eachother without "snap-to" functionality.
+  \item No way of selecting multiple objects.
 
   \item The pie-menu UI is practical and intuitive.
   \item The pie-menu UI needs virbration for users to interact without looking at it.
   \item Duplication on touchpad click casuses placement in unexpected places
+  \item No visual feedback upon creation, duplication or deletion of an object when the user is looking at the pie-menu.
 
   \item Belt UI provides a comfortable workstation in a seated position.
   \item Interaction with Belt UI can cause awkward body positioning when using raycast.

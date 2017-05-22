@@ -197,6 +197,9 @@ INPUT sections/problem/problem.tex
 INPUT sections/problem/problem.tex
 INPUT sections/related_work/related-work.tex
 INPUT sections/related_work/related-work.tex
+INPUT pictures/pie_menu.png
+INPUT ./pictures/pie_menu.png
+INPUT ./pictures/pie_menu.png
 INPUT sections/theoretical_framework/theoretical-framework.tex
 INPUT sections/theoretical_framework/theoretical-framework.tex
 INPUT sections/theoretical_framework/subsections/head-mounted-displays.tex
@@ -295,12 +298,12 @@ INPUT ./pictures/lo-fi/scalescenario3.PNG
 INPUT pictures/lo-fi/birdmenu2.PNG
 INPUT ./pictures/lo-fi/birdmenu2.PNG
 INPUT ./pictures/lo-fi/birdmenu2.PNG
-INPUT pictures/hi-fi/beltui_props.png
-INPUT ./pictures/hi-fi/beltui_props.png
-INPUT ./pictures/hi-fi/beltui_props.png
 INPUT pictures/hi-fi/beltui_add.png
 INPUT ./pictures/hi-fi/beltui_add.png
 INPUT ./pictures/hi-fi/beltui_add.png
+INPUT pictures/hi-fi/beltui_props.png
+INPUT ./pictures/hi-fi/beltui_props.png
+INPUT ./pictures/hi-fi/beltui_props.png
 INPUT pictures/hi-fi/beltui_scene.png
 INPUT ./pictures/hi-fi/beltui_scene.png
 INPUT ./pictures/hi-fi/beltui_scene.png
