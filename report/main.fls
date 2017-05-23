@@ -150,6 +150,8 @@ INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ecbx1000.tfm
 INPUT /usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ecrm1200.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm
+INPUT sections/abstract/abstract.tex
+INPUT sections/abstract/abstract.tex
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ecrm2074.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ecbx2074.tfm
 INPUT main.toc
@@ -329,10 +331,12 @@ INPUT pictures/hi-fi/scenario-add.png
 INPUT ./pictures/hi-fi/scenario-add.png
 INPUT pictures/hi-fi/scenario-addprop.png
 INPUT ./pictures/hi-fi/scenario-addprop.png
-INPUT sections/conclusion/conclusion.tex
-INPUT sections/conclusion/conclusion.tex
 INPUT sections/discussion/discussion.tex
 INPUT sections/discussion/discussion.tex
+INPUT sections/conclusion/conclusion.tex
+INPUT sections/conclusion/conclusion.tex
+INPUT sections/future-work/future-work.tex
+INPUT sections/future-work/future-work.tex
 INPUT main.bbl
 INPUT main.bbl
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ecti1095.tfm
@@ -344,8 +348,6 @@ INPUT sections/appendices/interviewees.tex
 INPUT sections/appendices/interviewees.tex
 INPUT sections/appendices/interview-answers.tex
 INPUT sections/appendices/interview-answers.tex
-INPUT sections/appendices/interview-answers/David-Ljunghill.tex
-INPUT sections/appendices/interview-answers/David-Ljunghill.tex
 INPUT main.aux
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
