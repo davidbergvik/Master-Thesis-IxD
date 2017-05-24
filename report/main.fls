@@ -210,6 +210,12 @@ INPUT sections/theoretical_framework/subsections/user-centered-design.tex
 INPUT sections/theoretical_framework/subsections/user-centered-design.tex
 INPUT sections/theoretical_framework/subsections/interaction-issues.tex
 INPUT sections/theoretical_framework/subsections/interaction-issues.tex
+INPUT pictures/Ergonomic_positions-01.png
+INPUT ./pictures/Ergonomic_positions-01.png
+INPUT ./pictures/Ergonomic_positions-01.png
+INPUT pictures/Ergonomic_positions-02.png
+INPUT ./pictures/Ergonomic_positions-02.png
+INPUT ./pictures/Ergonomic_positions-02.png
 INPUT sections/theoretical_framework/subsections/interaction-tools.tex
 INPUT sections/theoretical_framework/subsections/interaction-tools.tex
 INPUT sections/theoretical_framework/subsections/interface-design.tex
